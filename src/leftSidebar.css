@@ -1,0 +1,35 @@
+.leftBar {
+    background-color: ghostwhite;
+    width:25%;
+    height:1000px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+.allBack {
+    display:flex;
+}
+
+.img3 {
+    height:35px;
+    width:40px;
+}
+.fakeLinks{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.indLink {
+    display:flex;
+    align-content: center;
+}
+.linkDiv {
+    position: relative;
+    right:-30px;
+    top:-25px;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+}

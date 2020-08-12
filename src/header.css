@@ -1,0 +1,17 @@
+.img1 {
+    height:45px;
+    width:150px;
+}
+
+.img2 {
+    height:35px;
+    width:170px;
+    position:relative;
+    right:-980px;
+}
+
+.headerBar {
+    height:100px;
+    display:flex;
+    align-items: center;
+}

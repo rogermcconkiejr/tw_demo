@@ -1,0 +1,42 @@
+.table4 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 900px;
+    margin-top:25px;
+    margin-left:50px
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+      background-color:snow;
+      font-weight: lighter;
+      text-align: center;
+      font-size: smaller;
+  }
+  /* tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
+  .firstCol4 {
+      text-align: center;
+      background-color: snow;
+      width:50%;
+  }
+  .secondCol{
+      text-align:center;
+  
+  }
+  .headTitle {
+      font-family:arial, sans-serif;
+      margin-left:50px;
+      margin-top:25px;
+      margin-bottom:25px;
+  }
+  .fa-angle-down{
+      font-size:16px;
+      position:relative;
+      right:-150px;
+  }
