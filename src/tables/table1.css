@@ -12,18 +12,18 @@ table {
     padding: 8px;
   }
   
-  /* tr:nth-child(even) {
-    background-color: #dddddd;
-  } */
+
   .firstCol {
-      background-color: snow;
+      background-color: ghostwhite;
   }
   .secondCol{
       text-align:center;
       width:100px;
   }
   .headTitle {
-      font-family:arial, sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+color:#565656;
       margin-left:50px;
       margin-top:25px;
       margin-bottom:25px;
@@ -57,7 +57,7 @@ border-bottom:5px solid ghostwhite;
   }
   .wrapper {
       background-color: white;
-      border-right:20px solid ghostwhite;
+
       padding:10px;
 
   }

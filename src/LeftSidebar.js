@@ -27,17 +27,19 @@ function LeftSidebar() {
             <img className='img3' src={newShot2} />
                 <p className='moveUp'>SSO Integrations</p>
                 </div>
+                <div className= 'div5'>
+                <img className='img3' src={newShot4} />
+                <p className='moveUp'>Routing</p>
+                </div>
             </div>
             <br/><br/>
             <div className="linkDiv">
             <div className= 'routingLink'>
-            <img className='img3' src={newShot4} />
-                <p className='moveUp'>Routing</p>
                 </div>
-                <Link to="/table1" style={{ textDecoration: 'none'}}>Effort Per Product</Link><br/>
-                <Link to="/table2" style={{ textDecoration: 'none' }}>Capacity Per Level</Link><br/>
-                <Link to="/table3" style={{ textDecoration: 'none' }}>Case Reassignment</Link><br/>
-                <Link to="/table4" style={{ textDecoration: 'none' }}>General</Link>
+                <Link to="/table1" style={{ textDecoration: 'none', color:'BLACK'}}>Effort Per Product</Link><br/>
+                <Link to="/table2" style={{ textDecoration: 'none', color:'BLACK'}}>Capacity Per Level</Link><br/>
+                <Link to="/table3" style={{ textDecoration: 'none', color:'BLACK' }}>Case Reassignment</Link><br/>
+                <Link to="/table4" style={{ textDecoration: 'none', color:'BLACK' }}>General</Link>
             </div>
 
           </div>
@@ -46,7 +48,6 @@ function LeftSidebar() {
               <Route path ="/table2" component = {Table2} />
               <Route path ="/table3" component = {Table3} />
               <Route path ="/table4" component = {Table4} />
-
           </div>
         </div>
     )

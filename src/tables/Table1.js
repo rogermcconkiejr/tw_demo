@@ -8,10 +8,8 @@ function Table1() {
             </div>
 <div className='wrapper'>
 <table>
-  <tr>
-    <th>Product</th>
-    <th className='th2'>Points</th>
-  </tr>
+    <th style={{ backgroundColor:"ghostwhite"}}>Product</th>
+    <th className='th2' style={{ backgroundColor:"ghostwhite"}}>Points</th>
   <tr>
     <td className='firstCol'>Suspend Account</td>
     <td className = 'secondCol'> 
@@ -261,8 +259,8 @@ function Table1() {
 
 <table>
     <tr>
-        <th>Product</th>
-        <th className='th2'>Points</th>
+        <th style={{ backgroundColor:"ghostwhite"}}>Product</th>
+        <th className='th2' style={{ backgroundColor:"ghostwhite"}}>Points</th>
     </tr>
 
     <tr>

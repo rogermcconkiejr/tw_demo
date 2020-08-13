@@ -22,7 +22,6 @@
   } */
   .firstCol2 {
       text-align: center;
-      font-weight: bold;
   }
   .secondCol2{
       text-align:center;
@@ -43,3 +42,6 @@
       color:turquoise;
   }
   
+  form input{
+      width:10px;
+  }

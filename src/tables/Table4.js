@@ -10,15 +10,15 @@ function Table4() {
 <div class='wrapper'>
 <table className='table4'>
   <tr>
-    <td class='firstCol4'>Force Partial Skills Match</td>
-    <td class = 'secondCol'>Yes</td>
+    <td class='firstCol4' style={{ backgroundColor:"ghostwhite"}}>Force Partial Skills Match</td>
+    <td class = 'secondCol'><select><option>Yes</option><option>No</option></select></td>
   </tr>
   <tr>
-    <td class='firstCol4'>Active Backlog Zendesk Field</td>
+    <td class='firstCol4' style={{ backgroundColor:"ghostwhite"}}>Active Backlog Zendesk Field</td>
     <td class = 'secondCol'>40724389273521</td>
   </tr>
   <tr>
-    <td class='firstCol4'>Product Field</td>
+    <td class='firstCol4' style={{ backgroundColor:"ghostwhite"}}>Product Field</td>
     <td class = 'secondCol'>324895435</td>
   </tr>
 </table>
