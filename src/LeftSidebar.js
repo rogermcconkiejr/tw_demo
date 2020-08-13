@@ -7,6 +7,11 @@ import Table3 from './tables/Table3';
 import Table4 from './tables/Table4';
 import orgIcon from './Assets/orgIcon.png';
 import peepIcon from './Assets/peepIcon.png';
+import newShot1 from './Assets/newShot1.png';
+import newShot2 from './Assets/newShot2.png';
+import newShot3 from './Assets/newShot3.png';
+import newShot4 from './Assets/newShot4.png';
+
 
 function LeftSidebar() {
     return (
@@ -14,21 +19,21 @@ function LeftSidebar() {
           <div className="leftBar">
             <h2>Settings</h2>
             <div className='fakeLinks'>
-                <div>
-                <img className='img3' src={orgIcon} />
-                Organization
+                <div className='div5'>
+                <img className='img3' src={newShot1} />
+                <p className='moveUp'>Organization</p>
                 </div>
-                <div>
-            <img className='img3' src={peepIcon} />
-                SSO Integrations
-                </div>
-                <div >
-            <img className='img3' src={orgIcon} />
-                Routing
+                <div className = 'div5'>
+            <img className='img3' src={newShot2} />
+                <p className='moveUp'>SSO Integrations</p>
                 </div>
             </div>
             <br/><br/>
             <div className="linkDiv">
+            <div className= 'routingLink'>
+            <img className='img3' src={newShot4} />
+                <p className='moveUp'>Routing</p>
+                </div>
                 <Link to="/table1" style={{ textDecoration: 'none'}}>Effort Per Product</Link><br/>
                 <Link to="/table2" style={{ textDecoration: 'none' }}>Capacity Per Level</Link><br/>
                 <Link to="/table3" style={{ textDecoration: 'none' }}>Case Reassignment</Link><br/>

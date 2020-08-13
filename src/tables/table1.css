@@ -43,3 +43,21 @@ table {
   .th2 {
       text-align: center;
   }
+
+  .titleDiv {
+background-color:white;
+padding:15px;
+border-top:15px solid ghostwhite;
+border-right:20px solid ghostwhite;
+border-bottom:5px solid ghostwhite;
+  }
+
+  .completeWrapper {
+      background-color: ghostwhite;
+  }
+  .wrapper {
+      background-color: white;
+      border-right:20px solid ghostwhite;
+      padding:10px;
+
+  }

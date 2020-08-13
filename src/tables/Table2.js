@@ -3,8 +3,9 @@ import './table2.css'
 function Table2() {
     return (
         <div>
+            <div className = 'titleDiv'>
             <p class='headTitle'>Routing Settings > Skills Capacity</p>
-<hr/>
+            </div>
 <div class='wrapper'>
 <table className="table2">
   <tr>

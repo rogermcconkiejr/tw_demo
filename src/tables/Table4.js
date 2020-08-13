@@ -4,8 +4,9 @@ import './table4.css';
 function Table4() {
     return (
         <div>
+          <div className = 'titleDiv'>
             <p class='headTitle'>Routing Settings > General</p>
-<hr/>
+            </div>
 <div class='wrapper'>
 <table className='table4'>
   <tr>

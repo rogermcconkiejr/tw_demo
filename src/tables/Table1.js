@@ -2,9 +2,10 @@ import React from 'react';
 import './table1.css'
 function Table1() {
     return (
-        <div>
+        <div className = 'completeWrapper'>
+            <div className = 'titleDiv'>
             <p className='headTitle'>Routing Settings > Effort Per Product</p>
-<hr/>
+            </div>
 <div className='wrapper'>
 <table>
   <tr>

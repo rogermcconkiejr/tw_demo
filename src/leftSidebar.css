@@ -1,10 +1,14 @@
 .leftBar {
-    background-color: ghostwhite;
+    background-color: white;
+    border-right:5px solid ghostwhite;
+    border-top:15px solid ghostwhite;
+    border-left:20px solid ghostwhite;
     width:25%;
-    height:1000px;
+    height:700px;
     display:flex;
     flex-direction:column;
     align-items: center;
+
 
 }
 
@@ -32,4 +36,24 @@
     display:flex;
     flex-direction:column;
     align-items: flex-start;
+}
+.linkedWindow {
+    border-bottom:45px solid ghostwhite;
+    border-right:15px solid ghostwhite;
+}
+.routingLink {
+    position:relative;
+    left:-40px;
+    top:-10px;
+    padding-bottom:10px;
+    display:flex;
+}
+
+.div5 {
+    display:flex;
+}
+
+.moveUp {
+    position: relative;
+    top:-5px;
 }
